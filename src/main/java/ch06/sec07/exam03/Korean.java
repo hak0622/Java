@@ -1,8 +1,8 @@
 package ch06.sec07.exam03;
 
 public class Korean {
-    String nation = "대한민국";
-    String name;
+    public String nation = "대한민국";
+    public String name;
     String ssn;
 
     public Korean() {
