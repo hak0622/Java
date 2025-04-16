@@ -1,0 +1,18 @@
+package ch05.sec05;
+
+public class IndexOfContainsExample {
+    public static void main(String[] args) {
+        String subject = "자바 프로그래밍";
+
+        int a = subject.indexOf("프로그래밍");
+        System.out.println(a);
+        String substring = subject.substring(a);
+        System.out.println(substring);
+        a = subject.indexOf("자바");
+        if(a != -1) {
+            System.out.println("자바와 관련된 책이군요.");
+        } else {
+            System.out.println("자바와 관련 없는 책이군요.");
+        }
+    }
+}
