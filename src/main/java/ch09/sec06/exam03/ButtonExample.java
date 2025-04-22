@@ -10,15 +10,5 @@ public class ButtonExample {
         }
         btnOk.setClickListener(new OkListener());
         btnOk.click();
-
-        Button btnCancel = new Button();
-
-        class CancelListener implements Button.ClickListener{
-            public void onClick(){
-                System.out.println("Cancel 버튼을 클릭");
-            }
-        }
-        btnCancel.setClickListener(new CancelListener());
-        btnCancel.click();
     }
 }
